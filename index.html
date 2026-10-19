@@ -8,26 +8,86 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Diphylleia&family=Gowun+Dodum&family=Noto+Sans+KR:wght@100..900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=IBM+Plex+Sans+KR&family=Noto+Sans+KR:wght@100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>내 영화 보드</h1>
-    <article class="card">
-        <img class="poster" src="https://image.tmdb.org/t/p/w342/bvVoP1t2gNvmE9ccSrqR1zcGHGM.jpg
+
+    <header class="top">
+        <h1>내 영화 보드</h1>
+        <nav>
+            <ul>
+                <li><a href="#board">보드</a></li>
+                <li><a href="#about">소개</a></li>
+                <li><a href="detail.html">상세</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <h2>요즘 내가 고른 영화 다섯 편</h2>
+        <p>포스터 위에 마우스를 올려 보세요.</p>
+    </section>
+
+
+    <main>
+        <section class="board" id="board">
+            <article class="card">
+                <img class="poster" src="https://image.tmdb.org/t/p/w342//iZWZcLJ2NoyM1UoDJexgSWmXOC.jpg
 " alt="영화 제목 포스터">
-        <span class="badge">7.8</span>
-        <div class="info">
-            <h2>F1</h2>
-            <p class="year">2025-06-25</p>
-            <p class="overview">한때 주목받는 유망주였지만 끔찍한 사고로 F1®에서 우승하지 못하고 한순간에 추락한 드라이버 소니 헤이스. 그의 오랜 동료인 루벤 세르반테스에게 레이싱 복귀를
-                제안받으며 최하위 팀인 APXGP에 합류한다. 그러나 팀 내 떠오르는 천재 드라이버 조슈아 피어스와 소니 헤이스의 갈등은 날이 갈수록 심해지고. 설상가상 우승을 향한 APXGP 팀의 전략
-                또한 번번이 실패하며 최하위권을 벗어나지 못하고 고전하는데···
-            </p>
-        </div>
-    </article>
+                <span class="badge">7.2</span>
+                <div class="info">
+                    <h2>헝거게임: 판엠의 불꽃</h2>
+                    <p class="year">2012년 03월 12일 개봉</p>
+                    <p class="overview">여동생 대신 죽음의 경기장에 참가한 캣니스가 피타와 함께 생존을 위해 싸우며 독재 체제에 저항하는 상징으로 떠오른다.
+                    </p>
+                </div>
+            </article>
+            <article class="card">
+                <img class="poster" src="https://image.tmdb.org/t/p/w342/ca9M1P2F7mUGVcC5cQo0X5rf6tu.jpg" alt="영화 제목 포스터">
+                <span class="badge">7.4</span>
+                <div class="info">
+                    <h2>헝거게임: 캣칭 파이어</h2>
+                    <p class="year">2013년 11월 15일 개봉</p>
+                    <p class="overview">캣니스의 저항이 반란의 불씨가 되자, 캐피톨은 그녀를 제거하기 위해 역대 우승자들이 다시 맞붙는 특별한 헝거게임을 개최한다.</p>
+            </article>
+            <article class="card">
+                <img class="poster" src="https://image.tmdb.org/t/p/w342/r5UG5tSXpHIFFcpx4rvi6ZnJroj.jpg" alt="영화 제목 포스터">
+                <span class="badge">6.8</span>
+                <div class="info">
+                    <h2>헝거게임: 모킹제이</h2>
+                    <p class="year">2014년 11월 19일 개봉</p>
+                    <p class="overview"> 반란군의 상징인 모킹제이가 된 캣니스는 독재자 스노우에 맞서 선전전에 나서고, 캐피톨에 붙잡힌 피타를 구하려 한다.</p>
+                </div>
+            </article>
+            <article class="card">
+                <img class="poster" src="https://image.tmdb.org/t/p/w342/eLFGEWddcsQhRtD3CfmdpmXfz3w.jpg" alt="영화 제목 포스터">
+                <span class="badge">6.9</span>
+                <div class="info">
+                    <h2>헝거게임: 더 파이널</h2>
+                    <p class="year">2015년 11월 18일 개봉</p>
+                    <p class="overview">캣니스는 반란군과 함께 캐피톨을 향해 진격하며 스노우의 독재를 끝내기 위한 마지막 전투에 나선다.</p>
+                </div>
+            </article>
+            <article class="card">
+                <img class="poster" src="https://image.tmdb.org/t/p/w342/9f9YsmXoy9ghqZKIVuKHkmGGZCY.jpg" alt="영화 제목 포스터">
+                <span class="badge">6.9</span>
+                <div class="info">
+                    <h2>헝거게임: 노래하는 새와 뱀의 발라드</h2>
+                    <p class="year">2023년11월 15일 개봉</p>
+                    <p class="overview">캣니스가 등장하기 64년 전, 젊은 스노우가 10회 헝거게임의 멘토를 맡으며 훗날 독재자가 되는 과정을 그린다. </p>
+                </div>
+            </article>
+        </section>
+
+        <section id="about">
+            <h2>이 보드에 대하여</h2>
+            <p>만든 사람과 영화를 고른 기준을 한두 문장으로 적습니다.</p>
+            <p>포스터와 영화 정보는 TMDB 검색 결과를 그대로 옮겼습니다.</p>
+        </section>
+    </main>
+
     <footer>
         <p>이 사이트는 TMDB API를 사용하지만 TMDB의 보증이나 인증을 받지 않았습니다.
             This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
